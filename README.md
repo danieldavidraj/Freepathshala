@@ -5,4 +5,4 @@ Link to view the website:
 * Developer: Daniel Davidraj M
 * Project done for internship with Freepathshala
 #
-![Freepathshala](/images/OutplacementHeroes.png)
+![Freepathshala](/images/Freepathshala.png)

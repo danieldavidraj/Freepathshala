@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<link rel="icon" href="images/logo_icon.jpg" type="image/jpg">
+		<title>Freepathshala</title>
+		<meta name="description" content="Freepathshala">
+		<meta name="keywords" content="Freepathshala">
+		<meta name="author" content="Daniel Davidraj">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous"></script>
+		<script>
+			new WOW().init();
+		</script>
+		<style>
+			.nav-link
+			{
+				color:black !important;
+				font-weight:bold;
+			}
+			.nav-link:hover,.active
+			{
+				color:#F704A6 !important;
+			}
+			.container-fluid-xl
+			{
+				background-size:cover;
+				box-sizing:border-box;
+			}
+			.Read-More
+			{
+				background-color:white;
+				border:none;
+				outline:none !important;
+				font-weight:bold;
+				font-size:1.2em;
+				padding:.5rem 1rem;
+				cursor:pointer;
+				border-radius:30px;
+				transition:0.3s;
+			}
+			.Read-More:hover
+			{
+				background-color:#ddd;
+			}
+			.Read-More-impact
+			{
+				background-color:#DD1387;
+				border:none;
+				outline:none !important;
+				font-weight:bold;
+				font-size:1.2em;
+				color:white;
+				padding:.5rem 1rem;
+				cursor:pointer;
+				border-radius:30px;
+				transition:0.3s;
+			}
+			.Read-More-impact:hover
+			{
+				background-color:#BC1273 ;
+			}
+			#adjust1
+			{
+				width:50%;
+				padding:1%;
+			}
+			.touch
+			{
+				text-align:right;
+				margin:1% 2% 1% 0;
+			}
+			.slideshow-image-1
+			{
+				width:40%;
+				height:auto;
+			}
+			@media only screen and (max-width: 992px)
+			{
+				#orange-box
+				{
+					display:none;
+				}
+				.slideshow-image-1
+				{
+					width:80%;
+					height:auto;
+				}
+			}
+			@media only screen and (max-width: 650px) 
+			{
+				#adjust1
+				{
+					width:100%;
+				}
+				.touch
+				{
+					text-align:center;
+				}
+			}
+			.fa 
+			{
+				padding:8px;
+				font-size: 16px;
+				width: 2em;
+				text-align: center;
+				text-decoration: none !important;
+				border-radius: 50%;
+				background:black !important;
+				color:white !important;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="sticky-top">
+		<nav class="navbar navbar-expand-xl bg-white navbar-light">
+			<a class="navbar-brand" href="#">
+				<img src="images/logo.jpg" alt="Logo" style="width:180px;">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="collapsibleNavbar">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link active" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="why_freepathshala.html">Why Freepathshala</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="raddi_se_tarakki.html">Raddi Se Tarakki</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="SammaanKaSaman.html">Sammaan Ka Samman</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="naukri.html">Naukri Centre</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Volunteer</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="aboutus.html">About Us</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="locate.html">locate Us</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<div class="progress" style="height:4px;border-radius:0;">
+			<div class="progress-bar" id="progressbar" style="height:4px;background-color:#F704A6;"></div>
+		</div>
+		</div>
+		<script>
+			window.onscroll = function() {ProgressBar()};
+
+			function ProgressBar() 
+			{
+			  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+			  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+			  var scrolled = (winScroll / height) * 100;
+			  document.getElementById("progressbar").style.width = scrolled + "%";
+			}
+		</script>
+		<div class="text-white row" style="padding:20rem 0;background-image:url('images/main5.jpeg');background-position:center;width:100%;margin:auto;background-size:cover;">
+		</div>
+		<div class="container-fluid-xl text-white" style="background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url('images/main1.jpg');padding:4% 0;">
+			<div class="wow animate__animated animate__slideInUp animate__fast" style="text-align:center;width:100%;">
+				<h1 style="font-size:3em;">WHO WE ARE</h1>
+				<hr style="background-color:#E67E22;width:4rem;border-radius:2px;height:0.2rem;">
+				<p style="padding:1rem 20vw;font-size:1.3em;">Freepathshala is a Social initiative started in May 2015 working towards ensuring construction workers kids get continues 
+				education despite of their parents living nomadic life. We are a full time free school operating from public parks of gurgaon.</p>
+				<div id="slideshow" class="carousel slide wow animate__animated animate__slideInUp animate__fast" data-ride="carousel" style="margin-top:1%;background-color:black;padding:2% 0;">
+					<ul class="carousel-indicators">
+						<li data-target="#slideshow" data-slide-to="0" class="active"></li>
+						<li data-target="#slideshow" data-slide-to="1"></li>
+						<li data-target="#slideshow" data-slide-to="2"></li>
+						<li data-target="#slideshow" data-slide-to="3"></li>
+						<li data-target="#slideshow" data-slide-to="4"></li>
+						<li data-target="#slideshow" data-slide-to="5"></li>
+					</ul>
+
+					<div class="carousel-inner" style="margin:auto;">
+						<div class="carousel-item active">
+							<img src="images/slide1.jpg" class="slideshow-image-1">
+						</div>
+						<div class="carousel-item">
+							<img src="images/slide2.jpg" class="slideshow-image-1">
+						</div>
+						<div class="carousel-item">
+							<img src="images/slide3.jpg" class="slideshow-image-1">
+						</div>
+						<div class="carousel-item">
+							<img src="images/slide4.jpg" class="slideshow-image-1">
+						</div>
+						<div class="carousel-item">
+							<img src="images/slide5.jpg" class="slideshow-image-1">
+						</div>
+						<div class="carousel-item">
+							<img src="images/slide6.jpg" class="slideshow-image-1">
+						</div>
+					</div>
+
+					<a class="carousel-control-prev" href="#slideshow" data-slide="prev">
+						<span class="carousel-control-prev-icon"></span>
+					</a>
+					<a class="carousel-control-next" href="#slideshow" data-slide="next">
+						<span class="carousel-control-next-icon"></span>
+					</a>
+				</div>
+				<div class="container-xl wow animate__animated animate__slideInUp animate__fast" style="margin:auto;margin-top:1%;" id="adjust1">
+						<p style="font-size:15px;line-height:3vh;"><font style="color:yellow;font-size:30px;">"</font>
+						We are a bridge school who teaches kids
+						without any commitment of they being regular to school.
+						once kids are regular to school we build stability in there parents life    
+						to ensure no future drop outs.
+						<font style="color:yellow;font-size:30px;">"</font></p>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid-xl text-black" style="background-image:none;padding:2rem 0;">
+			<div class="wow animate__animated animate__slideInUp animate__fast" style="text-align:justify;width:100%;">
+				<h1 style="font-size:3em;text-align:center;">WHAT WE DO</h1>
+				<hr style="background-color:#E67E22;width:4rem;border-radius:2px;height:.2rem;">
+				<div class="row" style="width:100%;margin:auto;">
+					<div class="col-lg-6 wow animate__animated animate__slideInUp animate__fast">
+						<img src="images/ptm.jpeg" style="width:80%;height:auto;margin:auto;display:block;">
+						<div style="font-size:2em;font-weight:bold;padding-top:2rem;text-align:center;">Parent Teaching Meeting</div>
+						<div style="font-size:1em;padding:2rem 5vw;text-align:left;">This is the most important part of our initiative. 
+						Along with routinely tips on how to help kid excel in studies, we meet children’s parents every month to advice / 
+						counsel them on how they can come out of nomadic life routine.
+						</div>
+					</div>
+					<div class="col-lg-6 wow animate__animated animate__slideInUp animate__fast">
+						<img src="images/education.jpg" style="width:80%;height:auto;margin:auto;display:block;">
+						<div style="font-size:2em;font-weight:bold;padding-top:2rem;text-align:center;">Free Education</div>
+						<div style="font-size:1em;padding:2rem 5vw;text-align:left;">Education is not always free. But we aspire to make it for 
+						those who can’t afford it. Around 2,00,000 construction workers depend on daily wages and hence, don’t get to send 
+						their children to school for regular classes. Teachers, volunteers, youth, and parents join us in organizing daily 
+						classes in the public parks of Gurgaon. 
+						We currently operate in sector 45,46,51,52,57.
+						</div>
+					</div>
+					<div class="col-lg-6 wow animate__animated animate__slideInUp animate__fast">
+						<img src="images/hcc.jpg" style="width:80%;height:auto;margin:auto;display:block;">
+						<div style="font-size:2em;font-weight:bold;padding-top:2rem;text-align:center;">Health Checkup Camp</div>
+						<div style="font-size:100%;padding:3% 0 0 8%;text-align:left;">We organize regular health checkup camps in partnership 
+						with Doctors 
+						living in Gurgaon. Since construction workers work at a very polluted and in extremely unhygienic conditions every day, it 
+						becomes more important for them to care about their health than that for a privileged urban-living resident. The dust, 
+						smoke, sweat, and contaminants are consumed by them without a hint of care which leads to health-related issues and adds
+						up to more problems in their lives.
+						</div>
+					</div>
+					<div class="col-lg-6 wow animate__animated animate__slideInUp animate__fast">
+						<img src="images/plc.jpeg" style="width:80%;height:auto;margin:auto;display:block;">
+						<div style="font-size:2em;font-weight:bold;padding-top:2rem;text-align:center;">Pre Loved Clothes/Shoes/Stationery/Toys</div>
+						<div style="font-size:1em;padding:2rem 5vw;text-align:left;">
+						Whining over filled-wardrobe and not willing to throw away old clothes too? 
+						Do you have old shoes / half used stationery items / toys which are of no longer interested for your kids? 
+						Drop them at any of nearby a freepathshala center at Gurgaon or distribute among our kids directly.
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid-xl text-white" style="margin-top:1%;background-image:linear-gradient(rgba(0,0,0,0.7),rgba(255,255,255,0.5)),url('images/impact.jpg');
+		padding:5% 0 10% 0;">
+			<div style="text-align:center;width:100%;" class="wow animate__animated animate__slideInUp animate__fast">
+				<h1 style="font-size:4em;">IMPACT STORIES</h1>
+				<hr style="background-color:#E67E22;width:3rem;border-radius:2px;height:0.2rem;">
+				<div class="row" style="width:95%;text-align:left;margin:auto;margin-top:3%;">
+					<div class="col-lg-6 wow animate__animated animate__slideInUp animate__fast">
+						<div style="padding:3.5% 0;width:2.5vw;border:solid 2px #E67E22" id="orange-box"></div>
+						<div style="font-size:1.6em;font-weight:bold;padding-top:3%;">Janes's Been A Migrant Worker Since She Was Just 12</div>
+						<div style="font-size:1.3em;padding-top:5%;" id="adjust-text">Children are more likely to live in poverty than adults. They're also more vulnerable to its effects. ... 
+						An estimated 385 million children live 
+						in extreme poverty. The consequences are grave. Worldwide,the poorest children are twice as likely to die in childhood than their wealthier peers.
+						</div>
+						<div style="padding-top:3%;">
+							<button data-toggle="collapse" data-target="#readmore2" class="Read-More-impact">Read More</button>
+							<div id="readmore2" class="collapse" style="font-size:1.1vmax;">
+							<p>If you prefer not to see the Live Corners widget when you select the Direct Selection Tool,you can turn it off from View > Hide Corner Widget.
+							If you want to continue seeing the Live Corners widget when you select the Direct Selection Tool ,click View > Show Corner Widget.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 wow animate__animated animate__slideInUp animate__fast">
+						<div style="padding:3.5% 0;width:2.5vw;border:solid 2px #E67E22" id="orange-box"></div>
+						<div style="font-size:1.6em;font-weight:bold;padding-top:3%;">A Brighter Future - For Cambodia's Children</div>
+						<div style="font-size:1.3em;padding-top:5%;" id="adjust-text">Children are more likely to live in poverty than adults. They're also more vulnerable to its effects. ... 
+						An estimated 385 million children live 
+						in extreme poverty. The consequences are grave. Worldwide,the poorest children are twice as likely to die in childhood than their wealthier peers.
+						</div>
+						<div style="padding-top:3%;">
+							<button data-toggle="collapse" data-target="#readmore3" class="Read-More-impact">Read More</button>
+							<div id="readmore3" class="collapse" style="font-size:1.1vmax;">
+							<p>If you prefer not to see the Live Corners widget when you select the Direct Selection Tool,you can turn it off from View > Hide Corner Widget.
+							If you want to continue seeing the Live Corners widget when you select the Direct Selection Tool ,click View > Show Corner Widget.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid-xl text-white" style="background-color:black;background-image:none;padding:3% 0;">
+			<div class="wow animate__animated animate__slideInUp animate__fast" style="text-align:center;">
+				<h1 style="font-size:3em;padding:1rem;">Social recognition</h1>
+				<hr style="background-color:white;width:20vw;border-radius:2px;height:0.5vh;">
+				<div class="row" style="width:100%;margin:auto;margin-top:3%;">
+					<div class="col-md-3 wow animate__animated animate__slideInUp animate__fast" style="margin-bottom:2rem;">
+						<img src="images/nss.jpeg" class="rounded-circle" style="max-width:70%;height:auto;">
+					</div>
+					<div class="col-md-3 wow animate__animated animate__slideInUp animate__fast" style="margin-bottom:2rem;">
+						<a class="social-recognition" href="https://www.hindustantimes.com/brand-stories/thank-you-roshan/story-NLrgdyFHRlfPoZzcO9q6PK.html">
+						<img src="images/hindustan.jpeg" class="rounded-circle" style="max-width:70%;height:auto;">
+						</a>
+						
+					</div>
+					<div class="col-md-3 wow animate__animated animate__slideInUp animate__fast" style="margin-bottom:2rem;">
+						<a class="social-recognition" href="https://youwecan.org/event/free-pathshala-ties-up-with-youwecan-foundation-to-organise-health-camp/">
+						<img src="images/youwecan.jpg" class="rounded-circle" style="max-width:70%;height:auto;">
+						</a>
+					</div>
+					<div class="col-md-3 wow animate__animated animate__slideInUp animate__fast" style="margin-bottom:2rem;">
+						<a class="social-recognition" href="https://www.tribuneindia.com/news/archive/haryanatribune/-education-for-all-is-their-motto-864932">
+						<img src="images/tribune.jpeg" class="rounded-circle" style="max-width:70%;height:auto;">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid-xl text-white" style="background-image:linear-gradient(to bottom left,rgba(237,132,49,0.8),rgba(233,78,167,0.8)),url('images/joinus.jpg');background-position:center;padding:3rem 0;">
+			<div style="text-align:center;width:100%;" class="wow animate__animated animate__slideInUp animate__fast">
+				<h1 style="font-size:4em;">JOIN US</h1>
+				<hr style="background-color:white;width:3rem;border-radius:2px;height:.2rem;">
+				<h1 style="font-size:2em;padding:1rem 5rem 1rem 5rem;">SUPPORT US AND CHANGE THE COURSE OF A CHILD'S LIFE TODAY!</h1>
+				<button data-toggle="collapse" data-target="#readmore4" class="Read-More" style="padding:.5rem 1rem;">Read More</button>
+				<div id="readmore4" class="collapse" style="font-size:1em;">
+				<p style="padding:0 10vw;">
+					If you prefer not to see the Live Corners widget when you select the Direct Selection Tool,you can turn it off from View > Hide Corner Widget.
+					If you want to continue seeing the Live Corners widget when you select the Direct Selection Tool ,click View > Show Corner Widget.
+				</p>
+				</div>
+			</div>
+		</div>
+		<div class="touch wow animate__animated animate__slideInUp animate__fast">
+			<p style="font-weight:bold;font-size:0.9em;margin:0 0.4rem 0.5rem 0;">Keep In Touch</p>
+			<a href="https://www.facebook.com/Freepathshala/" target="_blank" class="fa fa-facebook"></a>
+			<a href="https://www.instagram.com/roshankumarind/p/BorYyzSFHaS/" target="_blank" class="fa fa-instagram"></a>
+			<a href="https://www.linkedin.com/company/freepathshala/?originalSubdomain=in" target="_blank" class="fa fa-linkedin"></a>
+		</div>
+	</body>
+</html>
+<!--
+	Developer details:
+	Daniel Davidraj M
+	danieldavidraj23@gmail.com
+-->

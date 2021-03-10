@@ -1,4 +1,4 @@
-<img src="images/logo.jpeg" height="100px" width="100px">
+<img src="images/logo.jpg" height="100px" width="100px">
 # Freepathshala
 Link to view the website:
 [Freepathshala](http://freepathshala.org/)

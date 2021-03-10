@@ -1,6 +1,12 @@
+<img src="images/logo.jpeg" height="100px" width="100px">
 # Freepathshala
 Link to view the website:
 [Freepathshala](http://freepathshala.org/)
-## Project details:
-* Developer: Daniel Davidraj M
-* Project done for internship with Freepathshala
+## Languages and Tools:
+* HTML
+* CSS
+* JavaScript
+* jQuery
+* Google Maps API
+* Google Sheets API
+* Bootstrap

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<link rel="icon" href="images/logo_icon.jpg" type="image/jpg">
+		<title>SammaanKaSaman</title>
+		<meta name="description" content="Freepathshala">
+		<meta name="keywords" content="Freepathshala">
+		<meta name="author" content="Daniel Davidraj">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous"></script>
+		<script>
+			new WOW().init();
+		</script>
+		<style>
+			.nav-link
+			{
+				color:black !important;
+				font-weight:bold;
+			}
+			.nav-link:hover,.active
+			{
+				color:#F704A6 !important;
+			}
+			.container-fluid-xl
+			{
+				background-size:cover;
+				box-sizing:border-box;
+			}
+			.touch
+			{
+				text-align:right;
+				margin:0 2% 1% 0;
+			}
+			@media only screen and (max-width: 650px) 
+			{
+				.touch
+				{
+					text-align:center;
+				}
+			}
+			.fa 
+			{
+				padding:8px;
+				font-size: 16px;
+				width: 2em;
+				text-align: center;
+				text-decoration: none !important;
+				border-radius: 50%;
+				background:black !important;
+				color:white !important;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="sticky-top">
+		<nav class="navbar navbar-expand-xl bg-white navbar-light">
+			<a class="navbar-brand" href="#">
+				<img src="images/logo.jpg" alt="Logo" style="width:180px;">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="collapsibleNavbar">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="why_freepathshala.html">Why Freepathshala</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="raddi_se_tarakki.html">Raddi Se Tarakki</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="#">Sammaan Ka Samman</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="naukri.html">Naukri Centre</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Volunteer</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="aboutus.html">About Us</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="locate.html">locate Us</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<div class="progress" style="height:4px;border-radius:0;">
+			<div class="progress-bar" id="progressbar" style="height:4px;background-color:#F704A6;"></div>
+		</div>
+		</div>
+		<script>
+			window.onscroll = function() {ProgressBar()};
+
+			function ProgressBar() 
+			{
+			  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+			  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+			  var scrolled = (winScroll / height) * 100;
+			  document.getElementById("progressbar").style.width = scrolled + "%";
+			}
+		</script>
+		<div class="row wow animate__animated animate__slideInUp animate__fast" style="width:100%;margin:auto;font-size:1.3em;">
+			<div class="col-md-6" style="display:flex;align-items:center;">
+				<img src="images/sammaan.jpeg" style="width:60%;height:auto;margin:3rem auto;display:block;">
+			</div>
+			<div class="col-md-6" style="display:flex;flex-direction:column;justify-content:center;padding-right:10vw;">
+				<p><b>Sammaan Ka Saman</b> is an initiative to help construction laborers acquire their house hold items in a dignified manner.</p>
+				<p>Every house hold discards many items which get replaced by new one but can be reused. so it’s an opportunity for your such 
+				discarded stuff to build a feeling of new to those for whom this could be a dream only.</p>
+				<p>We accept old kitchen items, adult cloths, bed sheets, curtains from societies and sell at a nominal amount ( Rs. 30 / 60
+				/ 90 ) to construction laborers around us.</p>
+				<p>Collected amount is used to run freepathshala in a self sustainable manner. While the stuff for 5 to 15yrs old kids still
+				get distributed free only.</p> 
+				<p>If you wish to handover your old stuff for Reuse or wish to volunteer in liquidating the stuff please give us a shout.</p>
+			</div>
+		</div>
+		<div class="touch wow animate__animated animate__slideInUp animate__fast">
+			<p style="font-weight:bold;font-size:0.9em;margin:0 0.4rem 0.5rem 0;">Keep In Touch</p>
+			<a href="https://www.facebook.com/Freepathshala/" target="_blank" class="fa fa-facebook"></a>
+			<a href="https://www.instagram.com/roshankumarind/p/BorYyzSFHaS/" target="_blank" class="fa fa-instagram"></a>
+			<a href="https://www.linkedin.com/company/freepathshala/?originalSubdomain=in" target="_blank" class="fa fa-linkedin"></a>
+		</div>
+	</body>
+</html>
+<!--
+	Developer details:
+	Daniel Davidraj M
+	danieldavidraj23@gmail.com
+-->
